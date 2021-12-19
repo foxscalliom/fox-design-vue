@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-    <x-button type="primary">button</x-button>
+    <f-button type="primary">按钮</f-button>
   </div>
 </template>
 

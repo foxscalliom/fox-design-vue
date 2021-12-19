@@ -1,12 +1,12 @@
 <template>
-  <div class="x-button">
+  <div class="f-button">
     <slot></slot>
   </div>
 </template>
 
 <script>
 export default {
-  name: 'x-button',
+  name: 'f-button',
   props: {
     type: String
   }
@@ -14,7 +14,7 @@ export default {
 </script>
 
 <style scoped>
-  .x-button {
+  .f-button {
       display: inline-block;
       padding: 3px 6px;
       background: blue;

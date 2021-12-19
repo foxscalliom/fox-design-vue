@@ -20,14 +20,14 @@
     "Button",
     "张永达"
   ],
-  "homepage": "https://github.com/foxscallion/fox-design-vue",
+  "homepage": "https://github.com/foxscalliom/fox-design-vue",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/foxscallion/xui/issues"
+    "url": "https://github.com/foxscalliom/fox-design-vue/issues"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com:foxscallion/xui.git"
+    "url": "git@github.com:foxscalliom/fox-design-vue.git"
   },
   "contributors": [
     "foxscallopn"
@@ -63,5 +63,5 @@
     "> 1%",
     "last 2 versions"
   ],
-  "main": "lib/xui.umd.min.js"
+  "main": "lib/foxscallion.umd.min.js"
 }

@@ -26,3 +26,10 @@ yarn lib
 	npm config set registry http://registry.npm.taobao.org/
 设置官方npm镜像:
 	npm config set registry https://registry.npmjs.org/
+## git命令
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin git@github.com:foxscalliom/fox-design-vue.git
+git push -u origin main
