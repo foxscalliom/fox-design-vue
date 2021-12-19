@@ -9,16 +9,15 @@
   },
   "description": "An enterprise-class UI design language and Vue components implementation",
   "keywords": [
-    "component",
+    "fox-design-vue",
     "components",
     "design",
     "framework",
     "frontend",
     "vue",
     "vue-component",
-    "ui",
-    "Button",
-    "张永达"
+    "foxscallion",
+    "Button"
   ],
   "homepage": "https://github.com/foxscalliom/fox-design-vue",
   "license": "MIT",
