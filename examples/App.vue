@@ -16,7 +16,7 @@ export default {
   }
 }
 </script>
-<style lang="less" scoped>
+<style>
 #app {
   flex-wrap: nowrap;
   display: flex;

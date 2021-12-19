@@ -4,7 +4,7 @@
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
-    "lib": "vue-cli-service build --target lib --name foxscallion --dest lib packages/index.js",
+    "lib": "vue-cli-service build --target lib --name fox --dest lib packages/index.js",
     "lint": "vue-cli-service lint"
   },
   "description": "An enterprise-class UI design language and Vue components implementation",
@@ -33,8 +33,6 @@
   ],
   "dependencies": {
     "core-js": "^3.6.4",
-    "less": "^4.0.0",
-    "less-loader": "^7.3.0",
     "vue": "^2.6.11"
   },
   "devDependencies": {

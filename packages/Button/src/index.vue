@@ -40,7 +40,7 @@ export default {
 };
 </script>
 
-<style lang="less">
+<style>
 *:disabled {
   cursor: not-allowed !important;
 }
