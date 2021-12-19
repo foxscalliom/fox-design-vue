@@ -2,9 +2,15 @@
 
 ## 安装
 ```
-npm install fox-design-vue
+npm install --save fox-design-vue
 ```
-
+## 使用
+main.js
+```
+import foxDesignVue from 'fox-design-vue'
+import 'fox-design-vue/lib/fox.css'
+Vue.use(foxDesignVue)
+```
 ### 测试
 ```
 yarn serve
