@@ -1,0 +1,37 @@
+{
+  "id": "3044063",
+  "name": "fox-design-vue",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-fox",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "29954",
+      "name": "warn",
+      "font_class": "warn",
+      "unicode": "e663",
+      "unicode_decimal": 58979
+    },
+    {
+      "icon_id": "43905",
+      "name": "info",
+      "font_class": "info",
+      "unicode": "e6e5",
+      "unicode_decimal": 59109
+    },
+    {
+      "icon_id": "1196840",
+      "name": "error",
+      "font_class": "error",
+      "unicode": "e623",
+      "unicode_decimal": 58915
+    },
+    {
+      "icon_id": "15838532",
+      "name": "success",
+      "font_class": "success",
+      "unicode": "e67f",
+      "unicode_decimal": 59007
+    }
+  ]
+}

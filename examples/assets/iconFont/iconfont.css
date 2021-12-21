@@ -1,0 +1,34 @@
+@font-face {
+  font-family: "fox"; /* Project id 3044063 */
+  src: url('//at.alicdn.com/t/font_3044063_sy26jj6yp7.woff2?t=1640104779050') format('woff2'),
+       url('//at.alicdn.com/t/font_3044063_sy26jj6yp7.woff?t=1640104779050') format('woff'),
+       url('//at.alicdn.com/t/font_3044063_sy26jj6yp7.ttf?t=1640104779050') format('truetype');
+}
+
+.fox {
+  font-family: "fox" !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.fox-error:before {
+  content: "\e62b";
+}
+
+.fox-warning:before {
+  content: "\e6ad";
+}
+
+.fox-success:before {
+  content: "\e64e";
+}
+
+.fox-info:before {
+  content: "\e674";
+}
+
+.fox-close:before {
+  content: "\e69e";
+}
