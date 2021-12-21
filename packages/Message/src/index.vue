@@ -1,9 +1,8 @@
 <template>
-  <transition name="fade" @after-leave="handleAfterLeave">
+  <transition name="fade">
     <div class="message" :class="type" v-if="visible">
       <i class="fox" :class="[
-      'fox-' + type,
-
+      'fox-' + type,type
       ]"></i>
       <div class="content">
         {{ content }}
@@ -45,8 +44,9 @@ export default {
 .message {
   display: flex;
   justify-content: space-between;
-  padding: 5px 10px;
+  padding: 2px 10px;
   min-width: 380px;
+  font-size: 14px;
 }
 .fade-enter-active {
   animation: fade-in 0.6s ease;
