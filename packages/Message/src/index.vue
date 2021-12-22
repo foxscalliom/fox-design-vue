@@ -84,12 +84,12 @@ export default {
     color: #f56c6c;
   }
   .fade-enter-active {
-    animation: fade-in 0.6s ease;
+    animation: fadein 1s ease;
   }
   .fade-leave-active {
-    animation: fade-out 0.6s ease;
+    animation: fadeout 1s ease;
   }
-  @keyframes fade-in {
+  @keyframes fadein {
     0% {
       top: -40px;
       opacity: 0;
@@ -99,7 +99,7 @@ export default {
       opacity: 100%;
     }
   }
-  @keyframes fade-out {
+  @keyframes fadeout {
     0% {
       top: 20px;
       opacity: 100%;

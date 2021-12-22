@@ -18,7 +18,7 @@ export default {
   mounted() {
     this.$foxMessage({
       content: "这是一个success",
-      time: 300000,
+      time: 3000,
       type: "success",
       hasClose: true,
     });
